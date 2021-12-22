@@ -1,0 +1,34 @@
+//
+//  CasinoPrefixHeader.pch
+//  Casino
+//
+//  Created by Jobs on 2021/12/18.
+//
+
+#ifndef CasinoPrefixHeader_pch
+#define CasinoPrefixHeader_pch
+
+#pragma mark —— 各项全局定义
+/// JobsBaseConfigNotificationManager
+#import "JobsBaseConfigNotificationManager.h"
+/// 各项宏定义
+#import "MacroDef_App.h"
+#import "MacroDef_Cor.h"
+#import "MacroDef_Size.h"
+#import "MacroDef_Func.h"
+#import "MacroDef_Sys.h"
+///  其他的一些全局定义文件
+#import "AABlock.h"
+#import "APIKey.h"
+#import "DefineStructure.h"
+#pragma mark —— JobsBaseCustomizeUIKitCore
+#import "JobsBaseCustomizeUIKitCoreHeader.h"
+#pragma mark —— JobsMixFunc
+#import "JobsMixFunc.h"
+#pragma mark —— Pods
+#import "DDPods.h"
+#import "DDPodsManual.h"
+/// 数据模型层
+#import "DAO.h"
+
+#endif /* CasinoPrefixHeader_pch */
